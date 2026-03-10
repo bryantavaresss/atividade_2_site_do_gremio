@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: rgb(252, 253, 242);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -14,12 +14,20 @@ body {
     padding-right: 10px;
 }
 
+.titulo {
+
+    color: rgb(61, 35, 24);
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
 #navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
-    color: white;
+    background-color: rgb(252, 253, 242);
+    color: rgb(26, 26, 26);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -28,7 +36,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: rgb(61, 35, 24);
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -37,18 +45,19 @@ body {
 
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
-    border: 4px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 253, 242);
+    border: 4px solid rgb(238, 224, 34);
+    border-radius: 10px;
 }
 
 .img_noticia {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 footer {
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(61, 35, 24);
     padding: 10px;
     text-align: center;
     color: white;
@@ -58,65 +67,45 @@ footer {
 .barra-sticky {
     position: sticky;
     top: 0px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
+    background-color: rgb(61, 35, 24);
+    color: rgb(255, 255, 255);
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98);
+
 }
 
 .posicao {
+    display: flex;
     margin: 40px;
     padding: 20px;
+    text-align: center;
     border-radius: 40px;
-    background-color: rgb(72, 155, 243);
-    color: white;
+    background-color: rgb(61, 35, 24);
+    color: rgb(255, 255, 255);   
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img_outros {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(238, 224, 34);
+    border-radius: 10px;
+    background-color: white;
 }
 
-.pos-box {
-    width: 420px;
-    margin: 20px auto;
-    padding: 15px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    color: white;
-}
+.titulo2 {
 
-.pos-static {
-    position: static;
-    top: 40px;
-    left: 40px;
-}
-
-.pos-relative {
-    position: relative;
-    top: 20px;
-    left: 30px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
-}
-
-.pai {
-    width: 520px;
-    height: 160px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    position: relative;
-    color: white;
+    color: rgb(61, 35, 24);
+    padding: 12px;
     font-weight: bold;
+    text-align: center;
+    font-size: 25px;
 }
 
-.filho {
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    padding: 8px 12px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
-    border: 3px solid rgb(7, 49, 98);
-    border-radius: 20px;
+.gif {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 150px;
 }
